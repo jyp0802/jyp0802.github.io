@@ -39,6 +39,39 @@ img.avatar { margin-bottom: 30px; }
 .research h1 { font-size: 32px; }
 .research .abstract { font-size: 12px; color: #777 }
 
+/*Projects*/
+.projects { line-height: 20px; }
+.projects h3 { font-size: 20px; margin: 0; }
+
+.project-item {
+    margin-bottom: 12px;
+    margin-top: 12px;
+    padding: 8px;
+}
+.project-left {
+    height: 160px;
+    width: 240px;
+    padding: 4px;
+    float: left;
+}
+.project-image {
+    height: auto;
+    width: 230px;
+    margin: auto;
+}
+.project-text {
+	position: relative;
+    height: 160px;
+    margin-left: 250px;
+}
+.project-foot {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	font-size: 12px;
+	color: #777;
+}
+
 .pagination a, .pagination span {
     padding: 7px 18px;
     border: 1px solid #eee;
