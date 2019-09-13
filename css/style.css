@@ -22,14 +22,22 @@ img.avatar { margin-bottom: 30px; }
 /* E-Mail */
 .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
 
-.home, .about, .cv, .research, .projects, .blog, .error { width: 90%; margin: 0 auto; margin-bottom: 30px; line-height: 26px; }
+.home, .cv, .research, .projects, .blog, .about, .error { width: 90%; margin: 0 auto; margin-bottom: 30px; line-height: 26px; }
 
 /* CV */
-.cv {line-height: 23px;}
+.cv { line-height: 23px; }
 .cv li { line-height: 23px; }
-.cv h3 { font-size: 24px; }
-.cv h2 { font-size: 28px; }
+.cv h3 { font-size: 24px; color: #2a5682 }
+.cv h2 { font-size: 28px; color: #2a5682 }
 .cv h1 { font-size: 32px; }
+
+/*Research*/
+.research { line-height: 20px; }
+.research li { line-height: 20px; }
+.research h3 { font-size: 20px; }
+.research h2 { font-size: 28px; color: #2a5682 }
+.research h1 { font-size: 32px; }
+.research .abstract { font-size: 12px; color: #777 }
 
 .pagination a, .pagination span {
     padding: 7px 18px;
