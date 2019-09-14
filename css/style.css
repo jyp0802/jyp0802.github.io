@@ -22,7 +22,7 @@ img.avatar { margin-bottom: 30px; }
 /* E-Mail */
 .obfuscate { unicode-bidi: bidi-override; direction: rtl; }
 
-.home, .cv, .research, .projects, .blog, .about, .error { width: 90%; margin: 0 auto; margin-bottom: 30px; line-height: 26px; }
+.home, .cv, .research, .projects, .blog, .site, .error { width: 90%; margin: 0 auto; margin-top: 20px; margin-bottom: 30px; line-height: 26px; }
 
 /* CV */
 .cv { line-height: 23px; }
@@ -42,7 +42,6 @@ img.avatar { margin-bottom: 30px; }
 /*Projects*/
 .projects { line-height: 20px; }
 .projects h3 { font-size: 20px; margin: 0; }
-
 .project-item {
     margin-bottom: 12px;
     margin-top: 12px;
@@ -71,6 +70,9 @@ img.avatar { margin-bottom: 30px; }
 	font-size: 12px;
 	color: #777;
 }
+
+/*Blog*/
+.blog { width: 80%; }
 
 .pagination a, .pagination span {
     padding: 7px 18px;
