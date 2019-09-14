@@ -12,8 +12,6 @@ blockquote p { font-size: 16px; line-height: 1.6em; }
 /* Navigation */
 h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
-
-img.avatar { margin-bottom: 30px; }
 		
 /* Custom container */
 .container > hr { margin: 20px 0; }
@@ -86,3 +84,7 @@ img.avatar { margin-bottom: 30px; }
 .pagination a { &:hover { background-color: #f1f1f1; color: #333; } }
 
 .pagination { text-align: center; }
+
+/*Icons*/
+.fa { padding: 8px; color: #336699; }
+.fa:hover { text-decoration: none; border-radius: 5px; background-color: #dddddd; }
