@@ -25,7 +25,6 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 /*Main page*/
 .home h1 { padding-left: 15px; }
 .profile-image { width: 100%; border-radius: 12px; }
-.profile-text { padding-top: 20px; }
 
 /* CV */
 .cv { line-height: 23px; }
